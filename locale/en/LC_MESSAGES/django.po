@@ -1813,106 +1813,114 @@ msgid "GitHub OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:125
-msgid "Twitch OAuth Source"
+msgid "GitLab OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:126
-msgid "Twitch OAuth Sources"
+msgid "GitLab OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:134
-msgid "Mailcow OAuth Source"
+msgid "Twitch OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:135
-msgid "Mailcow OAuth Sources"
+msgid "Twitch OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:143
-msgid "Twitter OAuth Source"
+msgid "Mailcow OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:144
-msgid "Twitter OAuth Sources"
+msgid "Mailcow OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:152
-msgid "Facebook OAuth Source"
+msgid "Twitter OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:153
-msgid "Facebook OAuth Sources"
+msgid "Twitter OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:161
-msgid "Discord OAuth Source"
+msgid "Facebook OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:162
-msgid "Discord OAuth Sources"
+msgid "Facebook OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:170
-msgid "Patreon OAuth Source"
+msgid "Discord OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:171
-msgid "Patreon OAuth Sources"
+msgid "Discord OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:179
-msgid "Google OAuth Source"
+msgid "Patreon OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:180
-msgid "Google OAuth Sources"
+msgid "Patreon OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:188
-msgid "Azure AD OAuth Source"
+msgid "Google OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:189
-msgid "Azure AD OAuth Sources"
+msgid "Google OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:197
-msgid "OpenID OAuth Source"
+msgid "Azure AD OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:198
-msgid "OpenID OAuth Sources"
+msgid "Azure AD OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:206
-msgid "Apple OAuth Source"
+msgid "OpenID OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:207
-msgid "Apple OAuth Sources"
+msgid "OpenID OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:215
-msgid "Okta OAuth Source"
+msgid "Apple OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:216
-msgid "Okta OAuth Sources"
+msgid "Apple OAuth Sources"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:224
-msgid "Reddit OAuth Source"
+msgid "Okta OAuth Source"
 msgstr ""
 
 #: authentik/sources/oauth/models.py:225
+msgid "Okta OAuth Sources"
+msgstr ""
+
+#: authentik/sources/oauth/models.py:233
+msgid "Reddit OAuth Source"
+msgstr ""
+
+#: authentik/sources/oauth/models.py:234
 msgid "Reddit OAuth Sources"
 msgstr ""
 
-#: authentik/sources/oauth/models.py:247
+#: authentik/sources/oauth/models.py:256
 msgid "User OAuth Source Connection"
 msgstr ""
 
-#: authentik/sources/oauth/models.py:248
+#: authentik/sources/oauth/models.py:257
 msgid "User OAuth Source Connections"
 msgstr ""
 
