@@ -17893,7 +17893,7 @@ paths:
         schema:
           type: string
           format: uuid
-        description: A UUID string identifying this connection token.
+        description: A UUID string identifying this RAC Connection token.
         required: true
       tags:
       - rac
@@ -17927,7 +17927,7 @@ paths:
         schema:
           type: string
           format: uuid
-        description: A UUID string identifying this connection token.
+        description: A UUID string identifying this RAC Connection token.
         required: true
       tags:
       - rac
@@ -17967,7 +17967,7 @@ paths:
         schema:
           type: string
           format: uuid
-        description: A UUID string identifying this connection token.
+        description: A UUID string identifying this RAC Connection token.
         required: true
       tags:
       - rac
@@ -18006,7 +18006,7 @@ paths:
         schema:
           type: string
           format: uuid
-        description: A UUID string identifying this connection token.
+        description: A UUID string identifying this RAC Connection token.
         required: true
       tags:
       - rac
@@ -18037,7 +18037,7 @@ paths:
         schema:
           type: string
           format: uuid
-        description: A UUID string identifying this connection token.
+        description: A UUID string identifying this RAC Connection token.
         required: true
       tags:
       - rac
