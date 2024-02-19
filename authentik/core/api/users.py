@@ -2,7 +2,7 @@
 
 from datetime import timedelta
 from json import loads
-from typing import Any, Optional
+from typing import Any
 
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.sessions.backends.cache import KEY_PREFIX
@@ -142,7 +142,7 @@ class UserSerializer(ModelSerializer):
         self._set_password(instance, password)
         return instance
 
-    def _set_password(self, instance: User, password: Optional[str]):
+    def _set_password(self, instance: User, password: str | None):
         """Set password of user if we're in a blueprint context, and if it's an empty
         string then use an unusable password"""
         if SERIALIZER_CONTEXT_BLUEPRINT in self.context and password:
@@ -397,7 +397,7 @@ class UserViewSet(UsedByMixin, ModelViewSet):
     def get_queryset(self):  # pragma: no cover
         return User.objects.all().exclude_anonymous().prefetch_related("ak_groups")
 
-    def _create_recovery_link(self) -> tuple[Optional[str], Optional[Token]]:
+    def _create_recovery_link(self) -> tuple[str | None, Token | None]:
         """Create a recovery link (when the current brand has a recovery flow set),
         that can either be shown to an admin or sent to the user directly"""
         brand: Brand = self.request._request.brand
